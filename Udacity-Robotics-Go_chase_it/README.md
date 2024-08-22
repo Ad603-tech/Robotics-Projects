@@ -1,6 +1,6 @@
 # RoboND-Go-Chase-It
 Project 2 of Udacity Robotics Software Engineer Nanodegree Program
-(https://github.com/Ad603-tech/Robotics-Projects/tree/main/Udacity-Robotics-Go_chase_it/Results/Ball_chaser_robot.mp4)
+(https://github.com/Ad603-tech/Robotics-Projects/tree/main/Results/Ball_chaser_robot.gif)
 
 ## Overview  
 In this project you'll create two ROS packages inside your `catkin_ws/src`: the `drive_bot` and the `ball_chaser` which will be used in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). Here are the steps to design the robot, house it inside your world, and program it to chase white-colored balls:  
@@ -24,7 +24,7 @@ In this project you'll create two ROS packages inside your `catkin_ws/src`: the 
   * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * gcc/g++ >= 5.4
   * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
+  * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/))
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 ## Setup Instructions (abbreviated)  
 1. Meet the `Prerequisites/Dependencies`  
