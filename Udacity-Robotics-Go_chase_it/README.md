@@ -1,6 +1,6 @@
 # RoboND-Go-Chase-It
 Project 2 of Udacity Robotics Software Engineer Nanodegree Program
-
+(https://github.com/Ad603-tech/Robotics-Projects/tree/main/Udacity-Robotics-Go_chase_it/Results/Ball_chaser_robot.mp4)
 
 ## Overview  
 In this project you'll create two ROS packages inside your `catkin_ws/src`: the `drive_bot` and the `ball_chaser` which will be used in Gazebo for all your upcoming projects in the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209). Here are the steps to design the robot, house it inside your world, and program it to chase white-colored balls:  
@@ -15,8 +15,7 @@ In this project you'll create two ROS packages inside your `catkin_ws/src`: the 
 * Write a `drive_bot` C++ node that will provide a `ball_chaser/command_robot` service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.
 * Write a `process_image` C++ node that reads your robot’s camera image, analyzes it to determine the presence and position of a white ball. If a white ball exists in the image, your node should request a service via a client to drive the robot towards it.
 * The `ball_chaser.launch` should run both the `drive_bot` and the `process_image` nodes.  
-## Prerequisites/Dependencies  
-## Prerequisites/Dependencies  
+## Prerequisites/Dependencies   
 * Gazebo >= 7.0  
 * ROS Kinetic  
 * make >= 4.1(mac, linux), 3.81(Windows)
