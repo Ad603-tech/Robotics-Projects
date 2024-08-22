@@ -65,9 +65,8 @@ Directory Structure
 │   │   │   │   ├── office.world
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
 │   │   │   ├── package.xml                    # package info
-├── pic                                     
-│   ├── record video.mp4                       # video
-│   ├── video_gif.gif                          # video
+├── Results                                     
+│   ├── Ball_chaser_robot.mp4                       # video
 ```
 - : A recording video.  
 - [drive_bot.cpp](/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
