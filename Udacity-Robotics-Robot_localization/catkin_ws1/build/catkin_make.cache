@@ -1,0 +1,2 @@
+my_robot:pgm_map_creator
+-DCATKIN_DEVEL_PREFIX=/home/robond/catkin_ws1/devel -DCMAKE_INSTALL_PREFIX=/home/robond/catkin_ws1/install -G Unix Makefiles
