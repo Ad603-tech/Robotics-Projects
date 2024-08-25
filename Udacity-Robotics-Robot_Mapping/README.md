@@ -71,7 +71,6 @@ The directory structure is depicted below:
 │   └── worlds
 │       └── myworld_project4.world
 └── Results                       
-    ├── rtabmap.db
     ├── rtabmap-all-views.png
     └── rtamap-graph-constraint-view.png
     └── rtamap-view.png
@@ -109,7 +108,7 @@ $ catkin_init_workspace
 
 #### 2. Clone the project in catkin_ws/src/.
 ```sh
-$ git clone https://github.com/elena-ecn/RoboticsND-Map-My-World.git
+$ git clone https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Robot_Mapping.git
 ```
 
 #### 3. Build the packages.

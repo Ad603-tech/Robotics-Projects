@@ -51,16 +51,6 @@ Directory Structure
 .Where-Am-I                                    # Where Am I Project
 ├── catkin_ws1                                  # Catkin workspace
 │   ├── src
-│   │   ├── ball_chaser                        # ball_chaser package        
-│   │   │   ├── launch                         # launch folder for launch files
-│   │   │   │   ├── ball_chaser.launch
-│   │   │   ├── src                            # source folder for C++ scripts
-│   │   │   │   ├── drive_bot.cpp
-│   │   │   │   ├── process_images.cpp
-│   │   │   ├── srv                            # service folder for ROS services
-│   │   │   │   ├── DriveToTarget.srv
-│   │   │   ├── CMakeLists.txt                 # compiler instructions
-│   │   │   ├── package.xml                    # package info
 │   │   ├── my_robot                           # my_robot package        
 │   │   │   ├── config                         # config folder for configuration files   
 │   │   │   │   ├── base_local_planner_params.yaml
@@ -93,9 +83,7 @@ Directory Structure
 │   ├── Robot_localization.gif
 │   ├── Robot_localization.webm
 
-``` 
-- [drive_bot.cpp](/catkin_ws1/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/catkin_ws1/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.   
+```
 - [robot_description.launch](/catkin_ws1/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world.  
 - [hokuyo.dae](/catkin_ws1/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
 - [my_robot.gazebo](/catkin_ws1/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
