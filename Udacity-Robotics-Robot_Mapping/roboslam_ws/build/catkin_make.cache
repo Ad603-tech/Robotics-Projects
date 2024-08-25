@@ -1,0 +1,2 @@
+my_robot
+-DCATKIN_DEVEL_PREFIX=/home/pc-icms/roboslam_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pc-icms/roboslam_ws/install -G Unix Makefiles
