@@ -2,7 +2,7 @@
 
 Application of a Simultaneous Localization and Mapping (SLAM) algorithm inside a 
 simulated environment in Gazebo with the `RTAB-Map` package.
-![rtab_visualization](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Robot_Mapping/Results/rtabmap-views.png)
+![rtab_visualization](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Robot_Mapping/Results/rtabmap-database-views.png)
 ![3D_Map_generated](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Robot_Mapping/Results/3D_map.png)
 
 
@@ -73,10 +73,10 @@ The directory structure is depicted below:
 │   └── worlds
 │       └── myworld_project4.world
 └── Results                       
-    ├── rtabmap-all-views.png
-    └── rtamap-graph-constraint-view.png
-    └── rtamap-view.png
-    └── rtamap-views.png
+    ├── rtabmap-database-views.png
+    └── rtamap.png
+    └── 3D_map.png
+
 ```
 
 Technologies
