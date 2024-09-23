@@ -1,8 +1,7 @@
 # Home-service-robot
-<p align="center" width="100%">
-    <img src="images/Home_Service_robot.gif" alt="Home Service Robot" width="500">
-    <br>Home Service Robot
-</p>
+
+![Home_Service_Robot](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/Images/Home_Service_robot.gif)
+
 
 ## Packages used in the project:
 
@@ -44,13 +43,11 @@ off zones.
 • Write an add_markers node that subscribes to the robot odometry and publishes markers to Rviz
 to simulate the object pick-up and drop-off.
 
-<p align="center" width="100%">
-    <img src="images/home.png" alt="Home Environment" width="500">
-    <br>Home Environment
-</p>
+![Home_Environment](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/Images/home.png)
+
 
 ## Directory Tree Structure:-
-
+![Directory_structure](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/Images/directory_structure.png)
 ## Technologies
 The project was developed on Ubuntu 20.04 LTS with:
 • ROS Noetic
@@ -102,20 +99,14 @@ Rviz. Once the house is fully explored, save the map with:
 ```sh
 $ rosrun map_server map_saver -f ../map/home_service_map
 ```
-<p align="center" width="100%">
-    <img src="images/home_service_map.pgm" alt="Home Service Map" width="500">
-    <br>Home Service Map
-</p>
+![Home_Service_map](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/my_robot/map/home_service_map.pgm)
 
 ## Part 2: Navigation
 Optional: If you would like to test the navigation algorithm, run:
 ```sh
 $ ./test_navigation.sh
 ```
-<p align="center" width="100%">
-    <img src="images/rviz.png" alt="Home Service Rviz navigation" width="500">
-    <br>Home Service Rviz navigation
-</p>
+![Home_Service_rviz_navigation](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/Images/rviz.png)
 
 Now you will be using the already generated map and localize with AMCL. Press the 2D Nav Goal
 button in Rviz and click somewhere on the map to command the robot to navigate there.
