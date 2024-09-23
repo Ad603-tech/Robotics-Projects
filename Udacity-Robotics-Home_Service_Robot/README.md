@@ -101,7 +101,7 @@ Rviz. Once the house is fully explored, save the map with:
 ```sh
 $ rosrun map_server map_saver -f ../map/home_service_map
 ```
-![Home_Service_map](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/my_robot/map/home_service_map.pgm)
+![Home_Service_map](https://github.com/Ad603-tech/Robotics-Projects/raw/main/Udacity-Robotics-Home_Service_Robot/my_robot/map/home_service_map.png)
 
 ## Part 2: Navigation
 Optional: If you would like to test the navigation algorithm, run:
