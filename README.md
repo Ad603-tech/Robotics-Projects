@@ -16,3 +16,7 @@ This project involves creating a robot that can map its environment and create a
 robot will use the R-TAB ROS package to create a 3D map of the space and the ros-teleop package through which we can move the robot
 around in the map.
 
+### Project 4: Home Service Robot
+#### Description
+This project involves creating a robot that can perform home service tasks such as object pick-up, drop-off and navigation. The robot
+uses gmapping package for SLAM and AMCL for localization and navigation. The path-planning is based Djikstra's algorithm. Two ROS nodes are created one to add markers in the map visualization and another to command the robot to pick-up objects and drop them off at the desired coordinates in the known environment.
